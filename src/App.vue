@@ -1,8 +1,8 @@
 <template>
     <div id="app">
 <!--        <img alt="Vue logo" src="./assets/logo.png" ref="testDom">-->
-        <button @click="getTest">获取test节点</button>
-        <button @click="getHello">获取helloworld组件中的值</button>
+<!--        <button @click="getTest">获取test节点</button>-->
+<!--        <button @click="getHello">获取helloworld组件中的值</button>-->
 <!--        <HelloWorld msg="Welcome to Your Vue.js App" ref="hello" @refreshData="getData"/>-->
         <TabDemo1 msg="Welcome to Your Vue.js App" ref="hello" @refreshData="getData"/>
     </div>
@@ -10,7 +10,7 @@
 
 <script>
     // import HelloWorld from './components/HelloWorld.vue'
-    import TabDemo1 from "@/components/TabDemo2";
+    import TabDemo1 from "@/components/Accordion";
 
     export default {
         name: 'App',
