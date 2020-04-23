@@ -10,7 +10,7 @@
 
 <script>
     // import HelloWorld from './components/HelloWorld.vue'
-    import TabDemo1 from "@/components/Accordion";
+    import TabDemo1 from "@/components/SwiperTest";
 
     export default {
         name: 'App',
